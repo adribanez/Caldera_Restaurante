@@ -1,0 +1,129 @@
+
+
+body{
+    width: 1280px;
+    height: 1080px;       
+    background-image:url("caldera_img/carbon.jpg");
+    color: white;
+    font-family: Lato;
+    background-attachment: fixed;
+    
+}
+
+
+    .menus{
+    
+            width: 100%;
+            list-style-type: none;
+            text-align: right;
+            display: flex;
+            justify-content: flex-end;
+            
+
+        
+        
+          }
+        
+           li {
+              display:inline-flex;
+        
+          }
+        
+        
+        
+           .button {
+            font-family: Lato;
+            font-size: 20px;
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+            width: 180px;
+            font-weight: 900;
+          }
+        
+          .button:hover{
+              color: orange;
+        
+          }
+        
+    
+
+
+.title{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10px;
+   
+}
+
+.container_linea1{
+    width: 165px;
+    height: 2px;
+    position: relative;
+    top: -56px;
+    left: 374px;
+    background-color: white;
+}
+
+.container_linea2{
+    width: 165px;
+    height: 2px;
+    position: relative;
+    top: -60px;
+    left: 746px;
+    background-color: white;
+}
+
+
+
+table {
+   
+    border-collapse: collapse;
+    width: 100%;  
+    font-weight: 700;
+
+}
+
+th{
+    text-align: center;
+    padding: 8px;
+}
+
+td {
+    /*  border: 1px solid #dddddd; */
+    text-align: justify;
+    padding: 8px;
+}
+
+
+
+
+.left{
+    width: 475px;
+    position: relative;
+    left: 130px;
+    top: 100px;
+    border: 5px solid white;
+}
+
+
+
+
+.right{
+    width: 475px;
+    position: relative;
+    top: -254px;
+    left: 720px;
+    border: 5px solid white;
+
+}
+
+.horizontal{
+    width: 602px;
+    position: relative;
+    top: -188px;
+    left: 392px;
+    border: 5px solid white;
+
+}
+    

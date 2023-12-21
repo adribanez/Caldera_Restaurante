@@ -1,0 +1,79 @@
+body {
+    background-image: url("caldera_img/fuego.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1280px;
+    height: 1080px;
+    margin: auto;
+    padding: 5px;
+}
+
+
+.menus {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding: 30px;
+
+
+}
+
+li {
+    display: inline-flex;
+
+}
+
+
+
+.button {
+    font-family: Lato;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 180px;
+    font-weight: 900;
+}
+
+.button:hover {
+    color: orange;
+
+}
+
+
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10px;
+    font-family: Lato;
+    color: white;
+    text-decoration: underline;
+}
+
+.quienes_somos {
+    padding: 43px;
+}
+
+.parrafo {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+p {
+    text-align: center;
+    width: 640px;
+    font-weight: 700;
+    color: white;
+
+
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+
+
+}

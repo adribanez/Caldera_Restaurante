@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOKING</title>
+    <link rel="stylesheet" href="booking.css"/>
+    <link rel="stylesheet" href="fuentes.css">
+</head>
+<body>
+    
+        <div class="menus">
+       
+
+            <ul>
+                <li><a class="button" href="main_page.html" target="_blank">Caldera</a></li>
+                <li><a class="button" href="menu.htm" target="_blank">Carta</a></li>
+                <li><a class="button" href="quienes_somos.html" target="_blank">¿Quienes somos?</a></li>
+    
+            </ul>
+        </div>
+    
+    <form action="GET" target="#">
+        <div>
+            <h3>Reservas</h3>
+            <div class="text-registro">
+                <label for="nombre">NOMBRE</label><br>
+                <input type="text" id="nombre" class="registro" name="nombre" />
+            </div>
+            <div class="text-registro">
+                <label for="apellido1">PRIMER APELLIDO</label><br>
+                <input type="text" id="apellido1" class="registro" name="apellido1" />
+            </div>
+            <div class="text-registro">
+                <label for="apellido2">SEGUNDO APELLIDO</label><br>
+                <input type="text" id="apellido2" class="registro" name="apellido2" />
+            </div>
+            <div class="text-registro">
+                <label for="email">EMAIL</label><br>
+                <input type="email" id="email" class="registro" name="email" />
+            </div>
+            <div class="text-registro">
+                <label for="telefono">TELEFONO DE CONTACTO</label><br>
+                <input type="text" id="telefono" class="registro" name="telefono" />
+            </div>
+            <div class="text-registro">
+                <label for="comensales">NÚMERO DE COMENSALES</label><br>
+                <input type="number" id="comensales" class="registro" name="comensales" />
+            </div>
+            <div class="text-registro">
+                <label for="fecha">FECHA Y HORA</label><br>
+                <input type="datetime-local" id="fecha" class="registro" name="fecha" />
+            </div>
+
+                
+            </div>
+
+
+
+
+            <!-- <div class="text-registro">                
+                <label for="si">SI</label>
+                <input type="radio" id="si" class="radio" name="mayor" value="si" />
+                <label for="no">NO</label>
+                <input type="radio" id="no" class="radio" name="mayor" value="no" />
+            </div> -->
+
+            <input type="submit" onclick="checkForm()" value="Enviar" class="enviar" />
+        </div>
+    </form>
+    
+</body>
+</html>
+

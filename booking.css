@@ -1,0 +1,83 @@
+body {
+    background-image: url("caldera_img/footer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+
+.menus {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding: 32px;
+
+
+}
+
+li {
+    display: inline-flex;
+
+}
+
+
+
+.button {
+    font-family: Lato;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 180px;
+    font-weight: 900;
+}
+
+.button:hover {
+    color: orange;
+
+}
+
+
+
+form {
+    width: 614px;
+    height: 571px;
+    padding-top: 32px;
+    background-color: rgb(145, 136, 136);
+    margin: 50px auto;
+    border: 2px solid;
+    text-align: center;
+    opacity: 70%;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+
+
+h3 {
+    font-size: 30px;
+}
+
+.registro {
+    width: 200px;
+    border: 4px sandybrown;
+    border-radius: 30px;
+}
+
+
+.enviar {
+    width: 100px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.enviar:hover {
+    background-color: rgb(184, 119, 41);
+
+}
+
+.text-registro {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
